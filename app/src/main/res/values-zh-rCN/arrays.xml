@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="icon_shapes_entries">
+        <item>跟随系统 / 原始</item>
+        <item>圆形</item>
+        <item>超椭圆方形</item>
+        <item>圆角方形</item>
+        <item>正方形</item>
+        <item>泪珠形</item>
+    </string-array>
+    <string-array name="theme_entries">
+        <item>浅色主题</item>
+        <item>深色主题</item>
+        <item>跟随系统设置</item>
+    </string-array>
+    <string-array name="questions">
+        <item>如何使用图标包？</item>
+        <item>如何应用图标包？</item>
+        <item>如何查看所有包含的图标？</item>
+        <item>如何使用备选图标来替换某个图标？</item>
+        <item>重启设备后图标包恢复到了默认状态怎么办？</item>
+        <item>为什么图标在我的设备上显示模糊或失真？</item>
+    </string-array>
+    <string-array name="answers">
+        <item>你需要一个支持自定义图标包的桌面启动器或系统图标包管理器，可在底部“应用”页面查看受支持的启动器列表。</item>
+        <item>前往底部导航栏的“应用”页面选择已安装的启动器一键应用；若当前桌面不支持外部一键跳转，请前往桌面设置中的“外观 / 图标包”手动选择本图标包。</item>
+        <item>点击底部“图标”页签或点击主页中的任意分类标签，即可按分类浏览并实时搜索全部图标。</item>
+        <item>在桌面上长按需要替换的应用图标，在弹出菜单中选择“编辑”，即可进入本图标包自由挑选替换图标。</item>
+        <item>当图标包被移动至外置存储卡时可能出现该情况，请将图标包保持安装在设备内置存储中。</item>
+        <item>部分启动器默认缩放比例偏小，可在启动器设置中将图标大小调整至 115%–120%。</item>
+    </string-array>
+</resources>

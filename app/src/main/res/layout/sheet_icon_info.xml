@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="28dp">
+
+        <View
+            android:layout_width="36dp"
+            android:layout_height="4dp"
+            android:layout_marginBottom="16dp"
+            android:alpha="0.35"
+            android:background="?attr/colorOnSurfaceVariant" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/iv_sheet_icon"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:importantForAccessibility="no"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:id="@+id/tv_sheet_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:gravity="center"
+            android:textAppearance="?attr/textAppearanceTitleLarge"
+            android:textStyle="bold" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip_drawable_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            app:chipIcon="@drawable/ic_copy"
+            app:chipIconSize="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_sheet_pick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="@string/select_icon"
+                android:visibility="gone"
+                app:icon="@drawable/ic_apply" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_sheet_save"
+                style="@style/Widget.Material3.Button.TonalButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="@string/save_icon_png"
+                app:icon="@drawable/ic_save" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_sheet_share"
+                style="@style/Widget.Material3.Button.TonalButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/share_icon"
+                app:icon="@drawable/ic_share" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_mapped_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/mapped_components"
+            android:textAppearance="?attr/textAppearanceTitleSmall"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/container_mapped_components"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

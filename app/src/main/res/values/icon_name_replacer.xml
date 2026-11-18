@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="icon_name_replacer">
+        <item>game_,</item>
+        <item>a_,</item>
+        <item>ic_,</item>
+        <item>d_,Drawer </item>
+        <item>qq,QQ</item>
+        <item>wechat,WeChat</item>
+        <item>alipay,Alipay</item>
+        <item>bilibili,Bilibili</item>
+        <item>cool_apk,Coolapk</item>
+        <item>wni,Weathernews</item>
+        <item>za_bank,ZA Bank</item>
+    </string-array>
+
+    <string-array name="icon_search_aliases" translatable="false">
+        <item>wechat|微信|WeChat|com.tencent.mm</item>
+        <item>alipay|支付宝|Alipay|com.eg.android.AlipayGphone</item>
+        <item>bilibili|哔哩哔哩|B站|Bilibili|tv.danmaku.bili</item>
+        <item>bilibilibog|哔哩哔哩|B站|Bilibili|tv.danmaku.bili</item>
+        <item>bilibili_bluebog|哔哩哔哩|B站|Bilibili</item>
+        <item>qq|QQ|腾讯QQ|com.tencent.mobileqq</item>
+        <item>taobao|淘宝|Taobao|com.taobao.taobao</item>
+        <item>jd|京东|JD|com.jingdong.app.mall</item>
+        <item>douyin|抖音|Douyin|TikTok|com.ss.android.ugc.aweme</item>
+        <item>meituan|美团|Meituan|com.sankuai.meituan</item>
+        <item>cool_apk|酷安|Coolapk|com.coolapk.market</item>
+        <item>weibo|微博|Weibo|com.sina.weibo</item>
+        <item>zhihu|知乎|Zhihu|com.zhihu.android</item>
+        <item>amap|高德地图|高德|Amap|com.autonavi.minimap</item>
+        <item>baidu_map|百度地图|Baidu Map|com.baidu.BaiduMap</item>
+        <item>nothing_x|Nothing X|Nothing X|com.nothing.smartcenter</item>
+        <item>nothing_glyph|Glyph|Glyph|com.nothing.glyph</item>
+        <item>nothing_essential_space|Essential Space|Essential Space|com.nothing.ntessentialspace</item>
+        <item>nothing_essential_apps|Essential Apps|Essential Apps|com.nothing.essentialapps</item>
+        <item>sing_box|sing-box|sing-box|io.nekohasekai.sfa</item>
+        <item>muntashirakon_app_manager|App Manager|App Manager|io.github.muntashirakon.AppManager</item>
+        <item>neo_store|Neo Store|Neo Store|com.machiav3lli.fdroid</item>
+        <item>webui_x|WebUI X|WebUI X|com.dergoogler.mmrl.wx</item>
+        <item>webui_x_explorer|WX Explorer|WX Explorer|WebUI X|com.dergoogler.mmrl.wx</item>
+        <item>estkme|ESTKme|ESTKme|eSIM|me.estk.lpa</item>
+        <item>club_sim|Club Sim|Club Sim|com.pccw.clubsim</item>
+        <item>simple_live|Simple Live|Simple Live|com.xycz.simple_live</item>
+        <item>zhihu_plus|知乎++|Zhihu++|com.github.zly2006.zhplus</item>
+        <item>reweibo|ReWeibo|ReWeibo|微博模块|com.tianqianguai.reweibo</item>
+        <item>quiethupu|虎扑静净|QuietHupu|io.github.fengwenhua.quiethupu</item>
+        <item>tiebaquiet|贴吧静净|TiebaQuiet|io.github.yigenhuobah.tiebaquiet</item>
+        <item>quietbox|静盒|QuietBox|io.github.yigenhuobah.quietbox</item>
+        <item>global_icon_pack|Global Icon Pack|Global Icon Pack|com.richardluo.globalIconPack</item>
+        <item>arcticons|Arcticons|Arcticons|com.donnnno.arcticons</item>
+        <item>lawnicons|Lawnicons|Lawnicons|app.lawnchair.lawnicons</item>
+        <item>delta_icon_pack|Delta|Delta Icon Pack|website.leifs.delta</item>
+    </string-array>
+</resources>

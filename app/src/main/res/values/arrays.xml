@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="icons_preview">
+        <item>aisland_reed</item>
+        <item>camera</item>
+        <item>clock</item>
+        <item>dev_tools</item>
+        <item>game_alto</item>
+        <item>game_coc_2</item>
+        <item>geography</item>
+        <item>cool_apk</item>
+        <item>facebook</item>
+        <item>twitter</item>
+        <item>instagram</item>
+        <item>twitch</item>
+        <item>qq_7</item>
+        <item>root_explorer</item>
+        <item>quora</item>
+        <item>google_message</item>
+        <item>phone</item>
+        <item>video</item>
+    </string-array>
+    <string-array name="supported_launchers">
+        <item>action</item>
+        <item>adw</item>
+        <item>adwex</item>
+        <item>aio</item>
+        <item>apex</item>
+        <item>atom</item>
+        <item>gip</item>
+        <item>go</item>
+        <item>googlenow</item>
+        <item>holo</item>
+        <item>holoics</item>
+        <item>lg</item>
+        <item>lawnchair</item>
+        <item>lineageos</item>
+        <item>lucid</item>
+        <item>moto</item>
+        <item>nothing</item>
+        <item>niagara</item>
+        <item>nova</item>
+        <item>oneplus</item>
+        <item>pixel</item>
+        <item>posidon</item>
+        <item>projectivy</item>
+        <item>smart</item>
+        <item>smartpro</item>
+        <item>solo</item>
+        <item>square</item>
+        <item>tsf</item>
+    </string-array>
+    <string-array name="icon_shapes_entries">
+        <item>System / Original</item>
+        <item>Circle</item>
+        <item>Squircle</item>
+        <item>Rounded Square</item>
+        <item>Square</item>
+        <item>Teardrop</item>
+    </string-array>
+    <string-array name="theme_entries">
+        <item>Light</item>
+        <item>Dark</item>
+        <item>Set by System</item>
+    </string-array>
+    <string-array name="theme_values">
+        <item>light</item>
+        <item>dark</item>
+        <item>system</item>
+    </string-array>
+    <string-array name="questions">
+        <item>How to use the icon pack?</item>
+        <item>How to apply the icon pack?</item>
+        <item>How to see all the included icons?</item>
+        <item>How to replace an icon with an alternative one?</item>
+        <item>I’ve restarted my device and the icon pack isn’t applied anymore. The default icons have been restored.</item>
+        <item>Why do the icons look pixelated on my device?</item>
+    </string-array>
+    <string-array name="answers">
+        <item>You need a launcher or system icon pack manager with icon pack support. Check the “Apply” tab for supported launchers.</item>
+        <item>Open the “Apply” tab in the bottom navigation bar and select your installed launcher. If your launcher does not support one-tap apply, select Pure Icon Pack manually inside your launcher’s settings.</item>
+        <item>Open the “Icons” tab or tap any category chip on the Home screen to browse and search all included icons.</item>
+        <item>Long-press the app icon on your home screen, choose “Edit” in your launcher’s menu, and pick any icon from Pure Icon Pack.</item>
+        <item>This happens when the icon pack is moved to external storage. Keep the icon pack installed on internal storage.</item>
+        <item>Your launcher may scale icons aggressively. Increase the launcher icon scale to 115%–120% in launcher settings.</item>
+    </string-array>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Pure.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/MyApp.Default</item>
+    </style>
+
+    <style name="MyApp.Default" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/accent</item>
+        <item name="colorOnPrimary">@color/onAccent</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorOnSecondary">@color/onAccent</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorSurfaceVariant">@color/surfaceVariant</item>
+        <item name="colorOnBackground">@color/onBackground</item>
+        <item name="colorOnSurface">@color/onSurface</item>
+        <item name="colorOnSurfaceVariant">@color/onSurfaceVariant</item>
+    </style>
+
+    <style name="MyApp.Default.Amoled" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/amoledAccent</item>
+        <item name="colorOnPrimary">@color/amoledOnAccent</item>
+        <item name="colorSecondary">@color/amoledAccent</item>
+        <item name="colorOnSecondary">@color/amoledOnAccent</item>
+        <item name="android:colorBackground">@color/amoledBackground</item>
+        <item name="colorSurface">@color/amoledSurface</item>
+        <item name="colorOnBackground">@color/amoledOnSurface</item>
+        <item name="colorOnSurface">@color/amoledOnSurface</item>
+    </style>
+
+    <style name="MyApp.Default.MaterialYou" parent="MyApp.Default" />
+    <style name="MyApp.Default.Amoled.MaterialYou" parent="MyApp.Default.Amoled" />
+</resources>

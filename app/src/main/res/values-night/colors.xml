@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#FF1E1E1E</color>
+    <color name="primaryDark">#FF121212</color>
+    <color name="accent">#FF64FFDA</color>
+    <color name="onAccent">#DE000000</color>
+    <color name="background">#FF121212</color>
+    <color name="surface">#FF1E1E1E</color>
+    <color name="surfaceVariant">#FF282E2D</color>
+    <color name="onPrimary">#FFFFFFFF</color>
+    <color name="onBackground">#FFFFFFFF</color>
+    <color name="onSurface">#FFFFFFFF</color>
+    <color name="onSurfaceVariant">#B3FFFFFF</color>
+</resources>

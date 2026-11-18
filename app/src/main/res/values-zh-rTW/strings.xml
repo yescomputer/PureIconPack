@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pure 輕雨圖示包</string>
+    <string name="new_icons">最新圖示</string>
+    <string name="prev_updated_icons">上次更新的圖示</string>
+    <string name="nav_home">主頁</string>
+    <string name="nav_icons">圖示</string>
+    <string name="nav_apply">套用</string>
+    <string name="help">說明與常見問題</string>
+    <string name="settings">設定</string>
+    <string name="shortcut_search">搜尋圖示</string>
+</resources>

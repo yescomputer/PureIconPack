@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shader version="1.0">
+    <exec m="W" t="OA" v="IA" />
+    <exec m="W" t="OR" v="IR" />
+    <exec m="W" t="OG" v="IG" />
+    <exec m="W" t="OB" v="IB" />
+</shader>

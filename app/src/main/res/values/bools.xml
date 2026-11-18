@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_iconpack">true</bool>
+    <bool name="config_apexskin">true</bool>
+    <bool name="enableIconPack">true</bool>
+    <bool name="enableDockPack">true</bool>
+    <bool name="includes_adaptive_icons">false</bool>
+    <bool name="xml_drawable_enabled">true</bool>
+    <bool name="sort_icons_alphabetically">true</bool>
+    <bool name="home_preview_icons_from_category">true</bool>
+    <bool name="home_preview_icons_rotate">true</bool>
+    <bool name="show_overview">true</bool>
+    <bool name="show_home_preview_version">true</bool>
+    <bool name="amoled_theme_enabled_by_default">false</bool>
+    <bool name="animations_enabled_by_default">true</bool>
+</resources>
